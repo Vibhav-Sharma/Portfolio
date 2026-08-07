@@ -55,7 +55,7 @@ export default function Hero() {
             href={siteConfig.links.resume}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-purple-600 hover:bg-purple-500 text-white font-semibold text-base sm:text-lg shadow-2xl shadow-purple-600/35 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-5 px-30 py-5 rounded-full bg-purple-600 hover:bg-purple-500 text-white font-semibold text-base sm:text-lg shadow-2xl shadow-purple-600/35 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
             <FiFileText className="w-5 h-5 sm:w-6 sm:h-6" />
             <span>Resume</span>
@@ -64,7 +64,7 @@ export default function Hero() {
             href={siteConfig.links.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-7 py-4 rounded-2xl border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
             <FiGithub className="w-5 h-5 text-purple-400" />
             <span>GitHub</span>
@@ -73,14 +73,14 @@ export default function Hero() {
             href={siteConfig.links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-7 py-4 rounded-2xl border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
             <FiLinkedin className="w-5 h-5 text-purple-400" />
             <span>LinkedIn</span>
           </a>
           <a
             href={`mailto:${siteConfig.links.email}`}
-            className="flex items-center gap-3 px-7 py-4 rounded-2xl border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
             <FiMail className="w-5 h-5 text-purple-400" />
             <span>Email</span>

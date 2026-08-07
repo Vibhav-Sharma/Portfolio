@@ -8,12 +8,16 @@ import Projects from "@/components/sections/Projects";
 import Publications from "@/components/sections/Publications";
 import Skills from "@/components/sections/Skills";
 import Contact from "@/components/sections/Contact";
+import DoodleMascot from "@/components/DoodleMascot";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-[#08080a] text-zinc-100 font-sans selection:bg-white/20 selection:text-white">
       {/* Mouse-reactive dot grid canvas background */}
       <DotGridCanvas />
+
+      {/* Interactive Doodle Mascot fixed in bottom right */}
+      <DoodleMascot />
 
       {/* Main layout */}
       <div className="relative z-10">
