@@ -49,10 +49,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
-      <body className="font-sans bg-bg text-text-primary antialiased">
-        {/* Film grain overlay */}
-        <div className="film-grain" aria-hidden="true" />
+    <html lang="en" className={`${inter.variable}`}>
+      <body className="font-sans bg-bg antialiased">
         {children}
       </body>
     </html>

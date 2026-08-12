@@ -16,11 +16,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-purple-500/30 bg-purple-500/10 mb-10 shrink-0"
+          className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-rose-400/40 bg-rose-50/80 backdrop-blur-sm mb-10 shrink-0"
         >
-          <span className="w-2.5 h-2.5 rounded-full bg-purple-400 animate-pulse shrink-0" />
-          <span className="text-xs sm:text-sm text-purple-300 font-mono tracking-widest font-semibold uppercase whitespace-nowrap">
-            VIT Chennai · AI Engineer & LLM Researcher
+          <span className="w-2.5 h-2.5 rounded-full bg-rose-500 animate-pulse shrink-0" />
+          <span className="text-xs sm:text-sm text-rose-700 font-mono tracking-widest font-semibold uppercase whitespace-nowrap">
+            VIT Chennai · AI Engineer &amp; LLM Researcher
           </span>
         </motion.div>
 
@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.08] text-white mb-8"
+          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.08] text-zinc-900 mb-8"
         >
           Vibhav Sharma
         </motion.h1>
@@ -39,9 +39,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-xl sm:text-2xl text-zinc-300 font-normal leading-relaxed mb-14 max-w-3xl"
+          className="text-xl sm:text-2xl text-zinc-600 font-normal leading-relaxed mb-14 max-w-3xl"
         >
-          Engineering intelligent <span className="text-purple-400 font-medium">LLM inference</span>, topic-aware <span className="text-purple-400 font-medium">KV Cache optimization</span>, and dynamic <span className="text-purple-400 font-medium">RAG systems</span>.
+          Engineering intelligent <span className="text-rose-600 font-medium">LLM inference</span>, topic-aware <span className="text-rose-600 font-medium">KV Cache optimization</span>, and dynamic <span className="text-rose-600 font-medium">RAG systems</span>.
         </motion.p>
 
         {/* Links / Action Buttons */}
@@ -55,7 +55,7 @@ export default function Hero() {
             href={siteConfig.links.resume}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-5 px-30 py-5 rounded-full bg-purple-600 hover:bg-purple-500 text-white font-semibold text-base sm:text-lg shadow-2xl shadow-purple-600/35 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-5 px-30 py-5 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-semibold text-base sm:text-lg shadow-2xl shadow-rose-600/25 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
             <FiFileText className="w-5 h-5 sm:w-6 sm:h-6" />
             <span>Resume</span>
@@ -64,25 +64,25 @@ export default function Hero() {
             href={siteConfig.links.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-300 bg-white/80 backdrop-blur-sm hover:bg-zinc-50 text-zinc-700 hover:text-zinc-900 font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
-            <FiGithub className="w-5 h-5 text-purple-400" />
+            <FiGithub className="w-5 h-5 text-rose-600" />
             <span>GitHub</span>
           </a>
           <a
             href={siteConfig.links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-300 bg-white/80 backdrop-blur-sm hover:bg-zinc-50 text-zinc-700 hover:text-zinc-900 font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
-            <FiLinkedin className="w-5 h-5 text-purple-400" />
+            <FiLinkedin className="w-5 h-5 text-rose-600" />
             <span>LinkedIn</span>
           </a>
           <a
             href={`mailto:${siteConfig.links.email}`}
-            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-800 bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 hover:text-white font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-3 px-20 py-4 rounded-full border border-zinc-300 bg-white/80 backdrop-blur-sm hover:bg-zinc-50 text-zinc-700 hover:text-zinc-900 font-medium text-base hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
-            <FiMail className="w-5 h-5 text-purple-400" />
+            <FiMail className="w-5 h-5 text-rose-600" />
             <span>Email</span>
           </a>
         </motion.div>
