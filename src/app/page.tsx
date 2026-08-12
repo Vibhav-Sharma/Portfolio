@@ -11,7 +11,7 @@ import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-white text-zinc-900 font-sans selection:bg-rose-500/20 selection:text-rose-900">
+    <div className="relative min-h-screen bg-white text-zinc-900 font-sans selection:bg-blue-500/20 selection:text-blue-900">
       {/* WebGL particle background (Mag) */}
       <MagBackground />
 

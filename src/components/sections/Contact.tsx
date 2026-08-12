@@ -8,13 +8,13 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col justify-center py-32 md:py-48 border-t border-rose-300/20"
+      className="min-h-screen flex flex-col justify-center py-32 md:py-48 border-t border-blue-300/20"
     >
       <div className="content-container w-full">
         <ScrollReveal>
           <div className="flex items-center gap-2.5 mb-8">
-            <span className="w-2.5 h-2.5 rounded-full bg-rose-500" />
-            <h2 className="text-xs sm:text-sm uppercase tracking-widest text-rose-600 font-mono font-semibold">
+            <span className="w-2.5 h-2.5 rounded-full bg-blue-500" />
+            <h2 className="text-xs sm:text-sm uppercase tracking-widest text-blue-600 font-mono font-semibold">
               Get In Touch
             </h2>
           </div>
@@ -30,7 +30,7 @@ export default function Contact() {
           <div className="flex flex-wrap items-center gap-5 text-sm sm:text-base">
             <a
               href={`mailto:${siteConfig.links.email}`}
-              className="inline-flex items-center gap-3 px-6 py-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-semibold shadow-xl shadow-rose-500/20 transition-all duration-200"
+              className="inline-flex items-center gap-3 px-6 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xl shadow-blue-500/20 transition-all duration-200"
             >
               <FiMail className="w-5 h-5" />
               <span>{siteConfig.links.email}</span>
@@ -42,7 +42,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border border-zinc-300 bg-white/80 backdrop-blur-sm hover:bg-zinc-50 text-zinc-700 hover:text-zinc-900 font-medium transition-all duration-200"
             >
-              <FiGithub className="w-5 h-5 text-rose-600" />
+              <FiGithub className="w-5 h-5 text-blue-600" />
               <span>GitHub</span>
               <FiArrowUpRight className="w-5 h-5" />
             </a>
@@ -52,7 +52,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border border-zinc-300 bg-white/80 backdrop-blur-sm hover:bg-zinc-50 text-zinc-700 hover:text-zinc-900 font-medium transition-all duration-200"
             >
-              <FiLinkedin className="w-5 h-5 text-rose-600" />
+              <FiLinkedin className="w-5 h-5 text-blue-600" />
               <span>LinkedIn</span>
               <FiArrowUpRight className="w-5 h-5" />
             </a>

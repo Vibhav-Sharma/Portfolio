@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md border-b border-rose-300/20 shadow-sm"
+          ? "bg-white/90 backdrop-blur-md border-b border-blue-300/20 shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -36,7 +36,7 @@ export default function Navbar() {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="text-sm font-semibold tracking-wide text-zinc-900 hover:text-rose-600 transition-colors duration-200"
+          className="text-sm font-semibold tracking-wide text-zinc-900 hover:text-blue-600 transition-colors duration-200"
         >
           {siteConfig.name}
         </a>
@@ -46,7 +46,7 @@ export default function Navbar() {
             <button
               key={link.href}
               onClick={() => handleNavClick(link.href)}
-              className="hover:text-rose-600 transition-colors duration-200"
+              className="hover:text-blue-600 transition-colors duration-200"
             >
               {link.label}
             </button>

@@ -33,7 +33,10 @@ export default function MagBackground() {
         density: 220,
         particlesScale: 0.59,
         interactive: true,
-      });
+        color1: "#1d4ed8", // Outer ring: Darker Royal Blue
+        color2: "#3b82f6", // Middle ring: Medium Vibrant Blue
+        color3: "#93c5fd", // Inner ring: Lighter Sky Blue
+      } as any);
 
       instanceRef.current = instance;
     });

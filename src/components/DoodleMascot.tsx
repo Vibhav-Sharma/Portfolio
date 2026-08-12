@@ -257,7 +257,7 @@ export default function DoodleMascot() {
           <button
             onClick={() => setIsVisible(false)}
             title="Dismiss mascot"
-            className="w-5.5 h-5.5 rounded-full bg-zinc-900/90 border border-purple-500/30 text-zinc-300 text-[10px] flex items-center justify-center shadow-lg hover:bg-rose-500 hover:text-white transition-all"
+            className="w-5.5 h-5.5 rounded-full bg-zinc-900/90 border border-purple-500/30 text-zinc-300 text-[10px] flex items-center justify-center shadow-lg hover:bg-blue-500 hover:text-white transition-all"
           >
             ✕
           </button>

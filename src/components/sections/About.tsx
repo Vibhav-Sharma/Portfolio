@@ -6,14 +6,14 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center py-32 md:py-48 border-t border-rose-300/20"
+      className="min-h-screen flex flex-col justify-center py-32 md:py-48 border-t border-blue-300/20"
     >
       <div className="content-container w-full">
         <div className="max-w-[720px] mx-auto text-left">
           <ScrollReveal>
             <div className="flex items-center gap-2.5 mb-8">
-              <span className="w-2.5 h-2.5 rounded-full bg-rose-500" />
-              <h2 className="text-xs sm:text-sm uppercase tracking-widest text-rose-600 font-mono font-semibold">
+              <span className="w-2.5 h-2.5 rounded-full bg-blue-500" />
+              <h2 className="text-xs sm:text-sm uppercase tracking-widest text-blue-600 font-mono font-semibold">
                 About Me
               </h2>
             </div>

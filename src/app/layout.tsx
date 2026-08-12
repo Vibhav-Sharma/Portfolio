@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sora, Fira_Code } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const sora = Sora({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-sora",
+  display: "swap",
+});
+
+const firaCode = Fira_Code({
+  subsets: ["latin"],
+  variable: "--font-fira-code",
   display: "swap",
 });
 
@@ -49,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="en" className={`${sora.variable} ${firaCode.variable}`}>
       <body className="font-sans bg-bg antialiased">
         {children}
       </body>
