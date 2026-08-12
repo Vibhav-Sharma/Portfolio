@@ -39,7 +39,7 @@ export default function MouseGlow() {
       className="pointer-events-none fixed inset-0 z-30"
       style={{
         background:
-          "radial-gradient(600px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgba(139, 92, 246, 0.04), transparent 40%)",
+          "radial-gradient(600px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgba(59, 130, 246, 0.035), transparent 45%)",
       }}
     />
   );

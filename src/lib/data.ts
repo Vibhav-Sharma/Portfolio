@@ -54,6 +54,7 @@ export interface Project {
   live?: string;
   year: string;
   badge?: string;
+  category: "LLM & Inference" | "RAG Systems" | "AI & ML" | "Systems & Security";
 }
 
 export const projects: Project[] = [
@@ -64,6 +65,7 @@ export const projects: Project[] = [
     tech: ["Python", "PyTorch", "Transformers"],
     github: "https://github.com/Vibhav-Sharma/KV-Cache-Management",
     year: "2026",
+    category: "LLM & Inference",
   },
   {
     title: "DA-RAG",
@@ -73,6 +75,7 @@ export const projects: Project[] = [
     github: "https://github.com/Vibhav-Sharma/DA-RAG",
     year: "2026",
     badge: "IEEE Published",
+    category: "RAG Systems",
   },
   {
     title: "Open Pit Rockfall Prediction",
@@ -82,6 +85,7 @@ export const projects: Project[] = [
     github: "https://github.com/Vibhav-Sharma/Open_Pit_Rockfall",
     year: "2025",
     badge: "Top 50 SIH",
+    category: "AI & ML",
   },
   {
     title: "Blockchain Secure Data Storage",
@@ -90,6 +94,7 @@ export const projects: Project[] = [
     tech: ["JavaScript", "Node.js"],
     github: "https://github.com/Vibhav-Sharma/Blockchain-based-Secure-data-storage-system",
     year: "2025",
+    category: "Systems & Security",
   },
 ];
 
